@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using CourseWebApp.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<CourseWebAppContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CourseWebAppContext") ?? throw new InvalidOperationException("Connection string 'CourseWebAppContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
