@@ -1,12 +1,17 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using CourseWebApp.Data;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<CourseWebAppContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("CourseWebAppContext") ?? throw new InvalidOperationException("Connection string 'CourseWebAppContext' not found.")));
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<CourseWebAppContext>
+    (options => options.UseMySql("server=localhost;userid=root;password=root;database=coursewebappdb",
+        ServerVersion.Parse("8.0.27-mysql")));
 
 var app = builder.Build();
 

@@ -262,3 +262,13 @@ C:\db\CourseWebApp\CourseWebApp\obj\Debug\net6.0\refint\CourseWebApp.dll
 C:\db\CourseWebApp\CourseWebApp\obj\Debug\net6.0\CourseWebApp.pdb
 C:\db\CourseWebApp\CourseWebApp\obj\Debug\net6.0\CourseWebApp.genruntimeconfig.cache
 C:\db\CourseWebApp\CourseWebApp\obj\Debug\net6.0\ref\CourseWebApp.dll
+C:\db\CourseWebApp\CourseWebApp\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\db\CourseWebApp\CourseWebApp\bin\Debug\net6.0\Google.Protobuf.dll
+C:\db\CourseWebApp\CourseWebApp\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\db\CourseWebApp\CourseWebApp\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\db\CourseWebApp\CourseWebApp\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\db\CourseWebApp\CourseWebApp\bin\Debug\net6.0\MySql.Data.dll
+C:\db\CourseWebApp\CourseWebApp\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\db\CourseWebApp\CourseWebApp\bin\Debug\net6.0\ZstdNet.dll
+C:\db\CourseWebApp\CourseWebApp\bin\Debug\net6.0\MySqlConnector.dll
+C:\db\CourseWebApp\CourseWebApp\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll

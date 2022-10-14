@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rB6+sKF6HCn7MX2sYn308v+DaUUxnlaZRixti3bbz4w=",
+  "Hash": "PKSNmmSltQGsvUOabcn6zTImUQc2y9ZvJkWWaJJeUhQ=",
   "Source": "CourseWebApp",
   "BasePath": "_content/CourseWebApp",
   "Mode": "Default",
@@ -236,6 +236,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\db\\CourseWebApp\\CourseWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css",
+      "SourceId": "CourseWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\db\\CourseWebApp\\CourseWebApp\\wwwroot\\",
+      "BasePath": "_content/CourseWebApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-flatly.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css"
+    },
+    {
+      "Identity": "C:\\db\\CourseWebApp\\CourseWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.min.css",
+      "SourceId": "CourseWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\db\\CourseWebApp\\CourseWebApp\\wwwroot\\",
+      "BasePath": "_content/CourseWebApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-flatly.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.min.css"
     },
     {
       "Identity": "C:\\db\\CourseWebApp\\CourseWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
