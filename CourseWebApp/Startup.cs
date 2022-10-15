@@ -52,7 +52,7 @@ namespace CourseWebApp;
         {
             endpoints.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Sellers}/{action=Index}/{id?}");
         });
     }
 }
