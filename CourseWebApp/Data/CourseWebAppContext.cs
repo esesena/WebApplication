@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using CourseWebApp.Models;
+using Microsoft.EntityFrameworkCore.Internal;
 
 namespace CourseWebApp.Data
 {

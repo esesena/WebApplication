@@ -1,4 +1,5 @@
 ﻿using CourseWebApp.Models;
+using CourseWebApp.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
